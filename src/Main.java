@@ -19,7 +19,9 @@ public class Main {
         if (positiveCount > 0) {
             double average = positiveSum / positiveCount;
             System.out.println("Количество положительны чисел: " + positiveCount);
+            System.out.println("---------------");
             System.out.println("Сумма положительных чисел: " + positiveSum);
+            System.out.println("---------------");
             System.out.println("Среднее арифметическое положительных чисел после первого отрицательного: " + average);
             System.out.println("---------------");
         } else {
